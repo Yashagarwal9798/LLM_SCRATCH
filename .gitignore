@@ -1,0 +1,148 @@
+# --------------------
+# 🔁 Python artifacts
+# --------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# --------------------
+# 🐍 Virtual Environments
+# --------------------
+venv/
+env/
+.venv/
+ENV/
+.Python
+pip-selfcheck.json
+
+# --------------------
+# 📦 Packaging
+# --------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+
+# --------------------
+# 📓 Jupyter Notebooks
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# ⚙️ PyTorch / ML Artifacts
+# --------------------
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.onnx
+*.bin
+*.npz
+
+# Large folders
+checkpoints/
+outputs/
+models/
+saved_models/
+logs/
+runs/
+weights/
+*.log
+
+# --------------------
+# 📊 Dataset files (train/test)
+# --------------------
+*.csv
+*.tsv
+*.json
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.7z
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+*.h5
+*.hdf5
+data/
+datasets/
+downloads/
+cache/
+tmp/
+temp/
+
+# Hugging Face
+*.model
+*.tokenizer
+*.txt
+*.jsonl
+tokenizer_config.json
+vocab.json
+merges.txt
+special_tokens_map.json
+*.cache/
+.huggingface/
+
+# --------------------
+# 🛠️ Editor & OS files
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+
+# --------------------
+# 🔐 Optional secrets/env
+# --------------------
+.env
+.env.*
+secrets.*
+config.yaml
+config.json
+# 🤗 HuggingFace Datasets cache
+~/.cache/huggingface/
+~/.huggingface/
+~/.datasets/
+datasets/
+downloads/
+*.arrow
+*.jsonl
+*.json
+*.txt
+*.csv
+*.tsv
+*.zip
+
+# 🤗 Datasets library specific cache
+__pycache__/
+.cache/
+.cache/*
+*.cache
+*.arrow
+*.lock
+*.lock.*
+
+# 🤗 Tokenizer cache
+tokenizer_config.json
+vocab.json
+merges.txt
+special_tokens_map.json
+
+# Avoid huge model or dataset files
+*.pt
+*.pth
+*.pkl
+*.bin
+*.onnx
+*.h5
+*.tar.gz
+*.npz
